@@ -1,0 +1,13 @@
+title: Pääsuke
+repo: "https://github.com/e-gov/PH-Doku"
+baseurl: "https://e-gov.github.io/PH-Doku"
+
+defaults:
+  -
+    scope:
+      path: "" # Kõik failid
+    values:
+      layout: "Times"
+      sidebar: "false"
+
+  

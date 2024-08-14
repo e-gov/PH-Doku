@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Navigeerimispäisega leht. -->
+
+<head>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+
+  <!-- JQuery, vajalik siis, kui külribas kasutada lüliteid -->
+  <script src="https://code.jquery.com/jquery.min.js"></script>
+
+  <!-- Vajalik külgribas lülitite kasutamisel -->
+  <script src='{{ site.baseurl }}/js/Utils.js'></script>
+
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/Times.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/Github.css">
+
+</head>
+
+<body onload='init()'>
+
+  {% include Riba.html %}
+  
+  <article>
+    {{ content }}
+
+    {% include Jalus.html %}
+  </article>
+
+</body>
+
+</html>
