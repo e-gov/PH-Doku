@@ -1,9 +1,8 @@
+<img src="img/NextGen_Rahastanud_EL_NextGeneration_EST_hor_color_RGB.webp" width="355"/>
+
 # Pääsuke infosüsteemi avalik dokumentatsioon
 
-* [Tutvustus](https://www.ria.ee/riigi-infosusteem/kesksed-platvormid-avalike-e-teenuste-pakkumiseks/paasuke)
-* [Pääsukesega liidestumise äriline kirjeldus ja rollide konfigureerimise kasutusjuhend](https://e-gov.github.io/PH-Doku/files/rollide_konfigureerimine_v011.pdf)
 
-<img src='img/pohijoonis.png' width='1062' height="1036" alt="Pääsukese joonis"/>
 
 ## Documentation for the developer implementing the integration with Pääsuke
 

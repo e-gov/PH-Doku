@@ -1,5 +1,7 @@
 - title: "Tutvustus"
   url: "/"
+- title: "Kirjeldus"
+  url: "/Kirjeldus"
 - title: "Integrating"
   url: "/Integrating"
 - title: "Oraakel"
