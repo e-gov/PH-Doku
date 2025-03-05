@@ -2,7 +2,7 @@
 
 # Pääsuke infosüsteemi avalik dokumentatsioon
 
-
+Pääsukese [kirjeldus](Kirjeldus).
 
 ## Documentation for the developer implementing the integration with Pääsuke
 
