@@ -2,19 +2,21 @@
 permalink: Remote
 ---
 
-# Remote authorisations
+# Kaugkinnitused
 
-The following specification is for systems that keep authorisations on their own information system and open API to Pääsuke to query and change them
+Järgnev spetsifikatsioon on mõeldud süsteemidele, mis hoiavad volitusi oma infosüsteemis ja avavad Pääsukele API päringute tegemiseks ja muutmiseks.
 
-* [Description of X-Road services offered to Pääsuke - v1.0.5](https://e-gov.github.io/PH-Doku/files/xroad-services-offered-to-paasuke-v1.0.5.pdf)
-* [OpenAPI definitions](https://app.swaggerhub.com/apis/TUGI/x-road-services-consumed-by-paasuke/)
 
-### Sample provider application
+* [Pääsukesele pakutavate X-Road teenuste kirjeldus - v1.0.5](https://e-gov.github.io/PH-Doku/files/xroad-services-offered-to-paasuke-v1.0.5.pdf)
+* [OpenAPI definitsioonid](https://app.swaggerhub.com/apis/TUGI/x-road-services-consumed-by-paasuke/)
 
-There is a sample application that provides these X-road services. The application is built in Python and uses Postgres as a database.
+### Näidisteenuse pakkuja taotlus
 
-* Sample provider application built in Python—[github.com/e-gov/PH-sample-provider-python](https://github.com/e-gov/PH-sample-provider-python) (based on 1.0.0)
-* You can run it locally using Docker-compose
-* The provider stores authorisations and persons in a Postgres database
-* The application keeps state—so if you add an authorisation, then you can get it back
+Nende X-tee teenuste pakkumiseks on olemas näidisrakendus. Rakendus on loodud Pythonis ja kasutab andmebaasina Postgresi.
+
+* Pythonis ehitatud näidispakkuja rakendus – [github.com/e-gov/PH-sample-provider-python](https://github.com/e-gov/PH-sample-provider-python) (põhineb versioonil 1.0.0)
+* Saate seda lokaalselt käivitada, kasutades Docker-compose'i
+* Teenusepakkuja salvestab volitused ja isikud Postgresi andmebaasi.
+* Rakendus säilitab oleku – seega kui lisate volituse, saate selle tagasi.
+
 
