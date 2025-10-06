@@ -2,6 +2,8 @@
   url: "/"
 - title: "Ärikirjeldus"
   url: "/Arikirjeldus"
+- title: "Sõnastik"
+  url: /sonastik
 - title: "Integratsioon"
   url: "/Integratsioon"
 - title: "Oraakel"
