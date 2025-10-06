@@ -4,6 +4,8 @@
   url: "/Kirjeldus"
 - title: "Sõnastik"
   url: /sonastik
+- title: "Volitused ja rollid"
+  url: "/Volitused"
 - title: "Integratsioon"
   url: "/Integrating"
 - title: "Oraakel"
