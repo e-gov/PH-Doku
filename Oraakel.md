@@ -22,4 +22,4 @@ Teenused tehakse kättesaadavaks X-tee kaudu.
 * [EE](https://x-tee.ee/catalogue/EE/GOV/70006317/volitused/) :
     * oraakel (production system)
 
-Teenustele juurdepääsu saamiseks tuleb täita [avaldus](https://www.ria.ee/riigi-infosusteem/kesksed-platvormid-avalike-e-teenuste-pakkumiseks/paasuke) .
+Teenustele juurdepääsu saamiseks tuleb täita [avaldus](https://www.ria.ee/riigi-infosusteem/kesksed-platvormid-avalike-e-teenuste-pakkumiseks/paasuke#:~:text=Taotlused%20ja%20tingimused) .
