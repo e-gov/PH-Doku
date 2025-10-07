@@ -21,4 +21,4 @@ Täpsem tabel koos tehnilise dokumentatsiooniga:  [https://e-gov.github.io/PH-D
 
 Juhised volituste andmiseks leiate viitel: [https://www.eesti.ee/static/files/Volituste_juhend_EE.pdf](https://www.eesti.ee/static/files/Volituste_juhend_EE.pdf) (3.1 Volituse lisamine)
 
-Täpsemalt saate volituste jagamise kohta lugeda viitel: [https://www.eesti.ee/et/ueldine-abi/riigiportaali-abi#e-teenuste-kasutamise-ja-volitustehaldamise-juhend](https://www.eesti.ee/et/ueldine-abi/riigiportaali-abi#e-teenuste-kasutamise-ja-volitustehaldamise-juhend)
+Täpsemalt saate volituste jagamise kohta lugeda viitel: [https://www.eesti.ee/et/ueldine-abi/riigiportaali-abi#e-teenuste-kasutamise-ja-volitustehaldamise-juhend](https://www.eesti.ee/eraisik/et/artikkel/riigiportaali-abi#e-teenuste-kasutamise-ja-volitustehaldamise-juhend:~:text=ria.ee.-,E%2Dteenuste%20kasutamise%20ja%20volituste%20haldamise%20juhend,-E%2Dteenuste%20kasutamine)
