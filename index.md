@@ -5,7 +5,7 @@
 ## Volituste haldamise infosüsteem Pääsuke
 
 
-Pääsuke on Eesti e-riigi elektrooniline keskselt hallatav volituste haldamise infosüsteem, kus kasutaja näeb tema poolt või talle antud volitusi üle terve Eesti riigi erinevate infosüsteemide. Kasutaja saab volitusi vaadata, neid juurde lisada, neist loobuda, neid kopeerida, enda volitusi edasi volitada, digiallkirjastada ja ühiesindusõigusega juriidilised isikud ringkinnitada. 
+Pääsuke on Eesti e-riigi elektrooniline keskselt hallatav volituste haldamise infosüsteem, kus kasutaja näeb tema poolt või talle antud volitusi üle terve Eesti riigi erinevate infosüsteemide. Kasutaja saab volitusi vaadata, neid juurde lisada, neist loobuda, neid kopeerida, enda volitusi edasi volitada, digiallkirjastada ja ühiesindusõigusega juriidilised isikud ringkinnitada. Pääsukeses on olemas ka volituste taotlemise funktsionaalsus, kus esindaja saab ise koostada taotluse vajalike rollidega ja saata seejärel esindatavale kinnitamiseks. 
 
 
 
