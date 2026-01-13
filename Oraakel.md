@@ -15,7 +15,7 @@ Järgnev spetsifikatsioon on mõeldud süsteemidele, mis hoiavad volitusi Pääs
 Teenused tehakse kättesaadavaks X-tee kaudu.
 
 * [ee-dev](https://x-tee.ee/catalogue/ee-dev/GOV/70006317/volitused/) :
-    * oraakel - Palun arvestage, et see end-pointt on ühendatud arenduskeskkonnaga, mis võib olla ebastabiilne.
+    * oraakel - Palun arvestage, et see end-point on ühendatud arenduskeskkonnaga, mis võib olla ebastabiilne.
 * [ee-test](https://x-tee.ee/catalogue/ee-test/GOV/70006317/volitused/)  :
     * oraakel
     * oraakel-stage - ühendatud pre-live keskkonnaga aadressil https://stage.eesti.ee/volitused, kuhu saab juurdepääsu taotleda (IP whitelistingi)
