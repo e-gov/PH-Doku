@@ -8,9 +8,9 @@ permalink: Integrating
 ## Peamised viisid Pääsukesega liidestumiseks:
 
 
-1. Kõige levinum integratsioonimuster on see, et liidestuja hoiab volitusi Pääsukeses ja liidestuja pärib [Pääsukese pakutavaid](#specification-of-the-x-road-services-that-pääsuke-provides-to-other-parties) X-Road teenuseid .
+1. Kõige levinum integratsioonimuster on see, et liidestuja hoiab volitusi Pääsukeses ja liidestuja pärib [Pääsukese pakutavaid](https://e-gov.github.io/PH-Doku/files/x-road_services_provided_by_paasuke.v1.0.0.pdf) X-Road teenuseid .
 2. Samuti on võimalik volitusi Pääsukeses hoida, kuid neile juurdepääsuks kasutada GovSSO teenust. Lisateavet saab [GovSSO dokumentatsioonist](https://e-gov.github.io/GOVSSO/Representee) .
-3. Liidestuja hoiab volitusi oma infosüsteemis ja Pääsuke pärib liidestuja käest [Pääsukese pakutavaid](#specification-of-the-x-road-services-that-pääsuke-provides-to-other-parties) X-Road teenuseid X-tee teenuseid
+3. Liidestuja hoiab volitusi oma infosüsteemis ja Pääsuke pärib liidestuja käest [Pääsukese pakutavaid](https://e-gov.github.io/PH-Doku/files/x-road_services_provided_by_paasuke.v1.0.0.pdf) X-Road teenuseid X-tee teenuseid
 
 ## Pääsukese teistele osapooltele pakutavate X-tee teenuste spetsifikatsioon
 
