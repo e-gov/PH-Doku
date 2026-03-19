@@ -47,7 +47,7 @@ Iga ettevõtja, kes on äriregistri andmetel asutuse esindusõigusega isik, saab
 <img src='img/pohijoonis.png' width='1062' height="1036" alt="Pääsukese joonis"/>
 
 Pääsukeses volitusi hoiustav volituse omanik saab neid hallata Pääsukeses.
-Väljaspool Pääsukest volitusi hoiustatavate volituste omanik saab seda teha nii Pääsukese rollikonfiguraatoris kui ka oma süsteemis.  Selliste volituste halduri analoog on nn "Symlink" volitus. Kui kasutajal tuvastatakse alusrolli olemasolu, siis see lisatakse kasutajale automaatselt Pääsukese poolt ja seda salvestatakse Pääsukese poolel kuni 7 päeva. Selle kohta täpsemalt saab lugeda (LINK teisele lehele) 
+Väljaspool Pääsukest volitusi hoiustatavate volituste omanik saab seda teha nii Pääsukese rollikonfiguraatoris kui ka oma süsteemis.  Selliste volituste halduri analoog on nn "Symlink" volitus. Kui kasutajal tuvastatakse alusrolli olemasolu, siis see lisatakse kasutajale automaatselt Pääsukese poolt ja seda salvestatakse Pääsukese poolel kuni 7 päeva. Selle kohta täpsemalt saab lugeda [siin](https://e-gov.github.io/PH-Doku/Remote).
 
 Rollide haldamine leiab aset toodang-keskkonnas, aga esmalt on võimalik muudatused paigaldada toogangueelsesse keskkonda Stage, mis asub [stage.eesti.ee](http://stage.eesti.ee/)'s ja kuhu RIA annab teistele asutustele ligipääsu taotluse alusel.
 Uuele liidestujale peab RIA esmalt looma rollipaki ja liidestuva asutuse juht peab andma oma asutuse töötajatele volituse kasutada Pääsukese Rollikonfiguraatori toodangkeskkonna kasutajaliidest.
