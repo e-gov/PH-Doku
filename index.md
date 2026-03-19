@@ -11,6 +11,7 @@ Pääsuke on Eesti e-riigi elektrooniline keskselt hallatav volituste haldamise 
 
 Pääsukese eesmärk on korrastada olemasolev Eesti digiriigi volituste keeruline maailm ja pakkuda uue kvaliteediga innovatiivset, selget ja kasutajasõbralikku volituste haldamise süsteemi. Pääsukese kasutuselevõtt säästab vajadusest investeerida ja luua omaenda volituste haldamise infosüsteem ning säästab oma infosüsteemi haldamiskuludest jm kaasnevatest kuludest.
 
+[Pääsukese demo](https://www.youtube.com/watch?v=Pq4PZ2dPo_0&list=PLNPWRftK1TNp9GZtHUw3jjIXOK3CMuUA2&index=4&t=81s.)
 
 
 
