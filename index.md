@@ -7,7 +7,7 @@
 
 Pääsuke on Eesti e-riigi keskne volituste haldamise infosüsteem, mis võimaldab kasutajatel hallata erinevate iseteeninduskeskkondade juurdepääse ühest kesksest kohast. 
 
-Pääsuke asub eesti.ee keskkonnas lehel https://www.eesti.ee/eraisik/et/volitused
+Pääsuke asub [eesti.ee](https://eesti.ee) keskkonnas lehel [https://www.eesti.ee/eraisik/et/volitused](https://www.eesti.ee/eraisik/et/volitused)
 
 **Pääsukese eesmärk** on korrastada olemasolev Eesti digiriigi volituste keeruline maailm ja pakkuda uue kvaliteediga innovatiivset, selget ja kasutajasõbralikku volituste haldamise süsteemi. 
 
