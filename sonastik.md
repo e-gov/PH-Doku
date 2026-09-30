@@ -4,7 +4,7 @@
 
 * **Pääsuke** - keskne volituste haldamise infosüsteem, mille kasutajaliides asub Riigiportaalis [eesti.ee](https://www.eesti.ee/).   
 * **Pääsukese toodangukeskkond** - [eesti.ee](https://www.eesti.ee/), avalikkusele juurdepääsetav keskkond.
-* **Pääsukese eeltoodangu keskkond** - [eesti.ee](https://www.eesti.ee/), piiratud juurdepääsuga toodangueelne keskkond liidestuse ja rollipaki testimiseks.
+* **Pääsukese eeltoodangu keskkond** - [eesti.ee](https://www.stage.eesti.ee/), piiratud juurdepääsuga toodangueelne keskkond liidestuse ja rollipaki testimiseks.
 * **Iseteenindus ehk liidestunud infosüsteem** - Pääsukesega liidestuv infosüsteem. Enamasti selleks on mõni avalik iseteeninduskeskkond, aga mõningatel juhtudel hoiustatakse Pääsukeses ka selliste infosüsteemide volitusi, mida ei nimetata iseteeninduseks.
 **Tegutsejate tüübid**
 
