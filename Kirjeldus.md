@@ -2,31 +2,76 @@
 permalink: Kirjeldus
 ---
 
-# Infosüsteem Pääsuke
+## Üldandmed ja kontekst
+
+### Pääsukese eesmärk
+
+Korrastada Eesti digiriigi volituste süsteem, pakkudes keskset, selget ja kasutajasõbralikku platvormi ligipääsuvolituste haldamiseks. Süsteem säästab teisi asutusi vajadusest luua ja hallata oma volituste süsteeme.
+
+### Seos äriprotsessidega
+
+Pääsuke toetab juriidiliste ja füüsiliste isikute esindusõiguste ja volituste kontrolli ning delegeerimist teistes riigi või erasektori infosüsteemides.
+
+### Omanikud ja osapooled
+
+Infosüsteemi omanik ja arendaja on **Riigi Infosüsteemi Amet (RIA)**.
+
+Liidestuva infosüsteemi omanik vastutab enda infosüsteemiga seotud volituste äriloogika toimimise ning juriidilise korrektsuse eest.
+
+RIA saab pakkuda kasutajatuge volituste andmiseks, tingimusel, et liidestuva infosüsteemi omanik on RIA-le edastanud selge ja üheselt mõistetava ärikirjelduse (mis volitusi, kellele ja millistel tingimustel on õigus anda). Lisada vabas vormis ärikirjeldus/juhis toodangu taotlusele.
+
+## Kasutajad ja rollid
+
+### Sihtrühm
+
+Infosüsteemi lõppkasutajad on füüsilised isikud, kes tegutsevad mingis rollis.
+
+Lõppkasutajad on liidestunud infosüsteemi kasutajad ning liidestuva infosüsteemi omaniku töötajad (nt kasutajatoe rollis olevad isikud).
+
+Pääsukest saavad kasutada vaid eesti isikutunnistust omavad isikud ja Eestis registreeritud juriidilised isikud.
+
+### Kasutajarollid
+
+Lõppkasutaja rollid:
+
+* **Seadusest tulenev esindaja:** Isik, kellel on Äriregistri andmetel õigus juriidilist isikut kõikides toimingutes esindada. Pääsuke tuvastab nii ainuesindusõiguse, ühisesindusõiguse kui esindusõiguse erisuse kui see on korrektselt Äriregistris kajastatud (masinloetaval kujul).
+* **Esindatav:** Isik (sh juriidiline isik), kes annab teisele isikule volituse enda nimel tegutseda.
+* **Esindaja:** Isik, kes saab õiguse esindatava nimel määratud rollis tegutseda.
+
+## Äriteenused ja funktsionaalsus 
 
 
-Pääsukesega liidestuv asutus saab oma Pääsukese rolle hallata läbi [eesti.ee](http://eesti.ee/)-s asuva rollikonfiguraatori kasutajaliidese. 
+### Pakutavad teenused
 
-Iga ettevõtja, kes on äriregistri andmetel asutuse esindusõigusega isik, saab ise jagada [Pääsukeses](https://www.eesti.ee/volitused/et) volitusi teenuste kasutamiseks.
+1. **Volituste haldamise kasutajaliides** on integreeritud riigiportaali eesti.ee ja on kättesaadav lehelt "Volitused".
 
-**Pääsuke pakub & tarbib**
+Volituste haldamise kasutajaliideses on võimalik:
+
+* volitusi vaadata
+* volitusi lisada
+* volitusi edasi volitada
+* volitusi kopeerida
+* volitustest loobuda
+* volitusi tagasi võtta
+* volitusi taotleda
+* volitusi digiallkirjastada
+
+Detailse ülevaate kasutajaliidese võimalustest saab Pääsukese [DEMO videost](https://www.youtube.com/watch?v=Pq4PZ2dPo_0&list=PLNPWRftK1TNp9GZtHUw3jjIXOK3CMuUA2&index=4&t=81s.) ja [Volituste haldamise juhendist](https://www.eesti.ee/static/files/Volituste_juhend_EE.pdf)
+
+Lähiajal lisanduvad funktsionaalsused: volituste ajaloo vaatamine
+
+2. Liidestunud infosüsteemi omanikule on olemas ka **kasutajaliides rollide seadistamiseks,** so **Rollikonfiguraator**, mille kohta leiad info [SIIT.](https://e-gov.github.io/PH-Doku/files/rollide_konfigureerimine_v011.pdf)
+
+3. **RIA kasutajatoe teenus:** Iga liidestuja saab valida, kas volitusi saab juriidilise isiku eest kasutajaliideses anda ka RIA kasutajatugi. RIA kasutajatugi saab volitusi ettevõtte eest lisada esindusõiguslike isikute poolt allkirjastatud taotluse alusel. Kasutajatoe teenuse jaoks on vajalik esitada vabas vormis ärikirjeldus/juhis ja esitada see koos toodangu taotlusega.
+   
+### Pääsuke pakub & tarbib
 * Pääsuke pakub kasutajale keskset ülevaadet tema poolt antud või talle antud volituste kohta terves riigi infosüsteemis.
 * Pääsuke pakub X-tee liideseid volituste küsimiseks (nn oraakliliides) ja volituste muutmiseks ning volituste haldamise kasutajaliidest [eesti.ee](http://eesti.ee/) portaalis.
 * Pääsuke tarbib Äriregistri ja Rahvastikuregistri X-tee teenuseid.
 
-**Ettevõte/asutus, millel on registrikaardile märgitud ühisesindusõigus või esindusõiguse erisus, saab Pääsukeses volitusi anda:**
 
-* ringkinnitamise teel (ringkinnitamise kohta saab lugeda [Pääsukese juhendist ptk 3.6 Ringkinnitamine)](https://www.eesti.ee/static/files/Volituste_juhend_EE.pdf) 
-* saates taotluse RIA kasutajatoele ([taotlus docx vormingus](https://www.eesti.ee/static/files/volituste_taotlus.docx), [taotlus rtf vormingus](https://www.eesti.ee/static/files/volituste_taotlus.rtf)). Taotlus peab olema allkirjastatud ühise esindusõigusega juhatuse liikmete poolt ning tuleb saata digiallkirjastatult aadressile help@ria.ee või paberil postiga aadressile Riigi Infosüsteemi Amet, Pärnu mnt 139a, Tallinn, 15169.
 
-**Näited rollidest, mida saab Pääsukeses anda ja eemaldada:**
-
-* "[Eesti.ee](http://eesti.ee/): Ettevõtte volitatud esindaja (eesti.ee teenuste osas)" - annab õiguse kasutada kõiki [eesti.ee](http://eesti.ee/) portaali teenuseid menüüs "E-teenused" (v.a eriõigustega teenused, nagu näiteks rahvastikuregistri teenuste õigused).
-* "Pääsuõiguste haldus: [Eesti.ee](http://eesti.ee/) portaali ettevõtjateenusete volituste haldur" - annab õiguse hallata [eesti.ee](http://eesti.ee/) ettevõtjatele mõeldud teenuste volitusi lehel [Volitused](https://www.eesti.ee/volitused/et).
-* "[Eesti.ee](http://eesti.ee/): Töövõimetuslehtede täiendaja - annab õiguse vaadata, täiendada ja kinnitada ettevõtja töötajate töövõimetuslehtede andmeid [eesti.ee](http://eesti.ee/) portaalis.
-* "[Eesti.ee](http://eesti.ee/): Tõendiga A1 (E101) seotud ettevõtjateenuste kasutaja" - annab õiguse kasutada ettevõtjale mõeldud tõendiga A1 (E101) seotud teenuseid eesti.ee portaalis.
-
-**Erinevad viisid Pääsukesega liidestumiseks**
+## Erinevad viisid Pääsukesega liidestumiseks
 
  Allpool nähtav joonis illustreerib, kuidas
 
