@@ -2,6 +2,8 @@
   url: "/"
 - title: "Ärikirjeldus"
   url: "/Kirjeldus"
+- title: "Õigusraamistik"
+  url: /oigusraamistik
 - title: "Sõnastik"
   url: /sonastik
 - title: "Volitused ja rollid"
