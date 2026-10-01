@@ -3,19 +3,13 @@ permalink: Integrating
 ---
 
 
-# Dokumentatsioon arendajale Pääsukesega liidestumiseks
+# Tehniline kirjeldus (integratsioonimustrid)
 
-## Peamised viisid Pääsukesega liidestumiseks:
+## Peamised viisid Pääsukesega liidestumiseks
 
 
-1. Kõige levinum integratsioonimuster on see, et liidestuja hoiab volitusi Pääsukeses ja liidestuja pärib [Pääsukese pakutavaid](https://e-gov.github.io/PH-Doku/files/x-road_services_provided_by_paasuke.v1.0.0.pdf) X-Road teenuseid .
-2. Samuti on võimalik volitusi Pääsukeses hoida, kuid neile juurdepääsuks kasutada GovSSO teenust. Lisateavet saab [GovSSO dokumentatsioonist](https://e-gov.github.io/GOVSSO/Representee) .
-3. Liidestuja hoiab volitusi oma infosüsteemis ja Pääsuke pärib liidestuja käest [Pääsukese pakutavaid](https://e-gov.github.io/PH-Doku/files/x-road_services_provided_by_paasuke.v1.0.0.pdf) X-Road teenuseid.
+**1. Täisintegratsioon (oraakel)** -  Volitusi hoitakse Pääsukeses ja päritakse [Pääsukese pakutavaid](https://e-gov.github.io/PH-Doku/files/x-road_services_provided_by_paasuke.v1.0.0.pdf) X-tee teenuseid (sisaldab ka seaduslikke esindusõigusi, mis Pääsuke pärib Äriregistrist).
 
-## Pääsukese teistele osapooltele pakutavate X-tee teenuste spetsifikatsioon
+**2. Osaline integratsioon (kaugkinnitused)** - volitusi hoitakse enda infosüsteemis ja Pääsuke pärib volitusi liidestunud infosüsteemist. Lisateave [kaugkinnituste dokumentatsioonist.](https://e-gov.github.io/PH-Doku/Remote)
 
-[Oraakel](Oraakel) on teenuse, mis vastutab teistele osapooltele volituste kättetoimetamise eest.
-
-## X-tee teenuste spetsifikatsioon, mida Pääsuke teistelt osapooltelt pärib
-
-Kuidas liidestada [kaugsüsteeme](Remote) , mis hoiavad volitused enda poolel, aga muudavad need hallatavaks Pääsukese kasutajaliidese kaudu.
+**3. GovSSO teenus**- täisintegratsioon, kus volitusi hoitakse Pääsukeses kuid neile juurdepääsuks kasutatakse GovSSO teenust. Lisateavet saab [GovSSO dokumentatsioonist.](https://e-gov.github.io/GOVSSO/Representee)
