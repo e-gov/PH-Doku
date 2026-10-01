@@ -67,35 +67,29 @@ Lähiajal lisanduvad funktsionaalsused: volituste ajaloo vaatamine
 ### Pääsuke pakub & tarbib
 * Pääsuke pakub kasutajale keskset ülevaadet tema poolt antud või talle antud volituste kohta terves riigi infosüsteemis.
 * Pääsuke pakub X-tee liideseid volituste küsimiseks (nn oraakliliides) ja volituste muutmiseks ning volituste haldamise kasutajaliidest [eesti.ee](http://eesti.ee/) portaalis.
-* Pääsuke tarbib Äriregistri ja Rahvastikuregistri X-tee teenuseid.
+* Pääsuke tarbib Äriregistri ja Rahvastikuregistri X-tee teenuseid (vt allpool olevat joonist).
 
 
+## Põhiprotsessid ja liidestumise viisid
 
-## Erinevad viisid Pääsukesega liidestumiseks
+**Liidestujale rollipaki (volituste) loomine Pääsukese rollikonfiguraatoris:** Liidestunud infosüsteemi omanik (joonisel nimetatud partnerasutus) saab Pääsukest kasutada enda infosüsteemi ligipääsude haldamiseks. Partneri liidestumist korraldav töötaja kirjeldab rollid rollikonfiguraatoris. Pääsukeses seadistatakse kes, kellele ja milliseid volitusi annab (volitusi hoiate Pääsukeses või liidestuva infosüsteemi juures) ning liidestunud infosüsteemi poolel seotakse volitus ligipääsu õigusega (ligipääsuõigusi hoiustatakse alati liidestunud infosüsteemi juures). 
 
- Allpool nähtav joonis illustreerib, kuidas
+**Volituste andmine kui esindaja on juriidiline isik (joonisel punasega):**
 
-1. Ettevõte tahab anda oma töötajale volitusi erinevate iseteeninduste kasutamiseks.
-    * Ettevõtte seadusjärgne esindaja võib anda töötajale volitused ise
-    * Ettevõtte seadusjärgne esindaja võib ka anda volitused volituste haldurile, kes tegeleb edasi volituste haldamisega seadusjärgse esindaja eest.
-2. Ettevõtte töötaja kasutab nende volituste alusel mõnd partnerasutuse iseteenindust.
-    * Üldjuhul selline ettevõtte töötaja Pääsukest ei kasuta aga kui tuleb, siis ta näeb endale antud volitusi eraisiku vaatest ja soovi korral saab nendest sealt loobuda
-    * Kui sellisel töötajal ei ole volituste halduri õigusi, siis ta ettevõtet Pääsukeses esindada ei saa
-3. Enamik partnerasutusi (joonisel rohelisega) annavad kogu volituste hoiustamise üle Pääsukesele ja laadib volitused sealt siis kui kasutajad nende süsteemi tulevad.
-    * Need partnerasutused saavad volitused kas laadida X-tee teenuse vahendusel või läbi liidestumise GovSSO-ga
-    * Sellised partnerasutused saavad ka luua kasutajatoe rolli oma asutuse töötajale. Selline töötaja saab hallata kõigi ettevõtete volitusi asutuse nimeruumi(de) osas.
-4. Osad partnerasutused (joonisel violetsega) hoiavad volitusi enda juures, aga teevad nende haldamise Pääsukese kasutajaliidese kaudu keskselt kättesaadavaks.
-    * Nende asutuse volitusi Pääsukesest üle X-tee laadida ei saa
-    * ääsuke laadib nende partnerite juurest volitused, et pakkuda ettevõtetele volituste haldamist keskselt läbi Pääsukese kasutajaliidese
-5. Mõlemat tüüpi partnerasutused saavad kirjeldada rollikonfiguraatoris oma rollide nimetused ja kirjeldused ja rollide omavahelised reeglid.
+* Juriidilise isiku nimel saavad Pääsukeses volitusi anda seaduse järgne esindaja või esindajad (esindusõiguse tuvastab Pääsuke Äriregistrist).
+* Seadusejärgne esindaja või esindajad saavad määrata enda asutuse volituste halduri, kes hakkab esindusõiguslike isikute eest volitusi andma (selle funktsionaalsuse jaoks peab kindlasti olema seadistatud rollipakki volitus tüübiga AUTORISATION_MANAGER).
+* Liidestunud infosüsteemi (partnerasutuse) esindusõiguslik isik saab anda enda asutuse töötajale anda kasutajatoe (roll tüübiga HELPDESK) volituse, kes saab enda infosüsteemi volitusi hallata ka infosüsteemi kasutajate eest (joonisel rohelisega)
+* Asutuse/ettevõtte töötajale antakse volitus, millega saab siseneda liidestunud infosüsteemi (joonisel rohelisega)
+
+**Füüsilise isiku esindamine:** Kui tegemist on füüsilise isikule mõeldud volitustega siis saab volituse anda vaid füüsiline isik ise (nt füüsiline isik volitab teist füüsilist isikut).
+
+Liidestumisel tuleb otsustada, mis liidestumise viisi kasutada. Tehnilise kirjeldusega saab tutvuda [SIIN].(https://e-gov.github.io/PH-Doku/Integrating) 
+
+Antud joonisel rohelisega on kirjeldatud liidestumist, kus volitusi hoitakse Pääsukeses ja lillaga on kujutatud liidestumist, kus volitusi hoiatakse partneri iseteeninduses (nimetatud ka kui kaugkinnitus).
 
 <img src='img/pohijoonis.png' width='1062' height="1036" alt="Pääsukese joonis"/>
 
-Pääsukeses volitusi hoiustav volituse omanik saab neid hallata Pääsukeses.
-Väljaspool Pääsukest volitusi hoiustatavate volituste omanik saab seda teha nii Pääsukese rollikonfiguraatoris kui ka oma süsteemis.  Selliste volituste halduri analoog on nn "Symlink" volitus. Kui kasutajal tuvastatakse alusrolli olemasolu, siis see lisatakse kasutajale automaatselt Pääsukese poolt ja seda salvestatakse Pääsukese poolel kuni 7 päeva. Selle kohta täpsemalt saab lugeda [siin](https://e-gov.github.io/PH-Doku/Remote).
 
-Rollide haldamine leiab aset toodang-keskkonnas, aga esmalt on võimalik muudatused paigaldada toogangueelsesse keskkonda Stage, mis asub [stage.eesti.ee](http://stage.eesti.ee/)'s ja kuhu RIA annab teistele asutustele ligipääsu taotluse alusel.
-Uuele liidestujale peab RIA esmalt looma rollipaki ja liidestuva asutuse juht peab andma oma asutuse töötajatele volituse kasutada Pääsukese Rollikonfiguraatori toodangkeskkonna kasutajaliidest.
 
 
 
