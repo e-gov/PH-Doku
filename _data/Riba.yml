@@ -2,7 +2,7 @@
   url: "/"
 - title: "Mõisted"
   url: /sonastik
-  - title: "Ärikirjeldus"
+- title: "Ärikirjeldus"
   url: "/Kirjeldus"
 - title: "Tehniline kirjeldus (integratsioonimustrid)"
   url: "/Integrating"
