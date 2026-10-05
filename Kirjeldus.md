@@ -66,7 +66,7 @@ Lähiajal lisanduvad funktsionaalsused: volituste ajaloo vaatamine
    
 ### Pääsuke pakub & tarbib
 * Pääsuke pakub kasutajale keskset ülevaadet tema poolt antud või talle antud volituste kohta terves riigi infosüsteemis.
-* Pääsuke pakub X-tee liideseid volituste küsimiseks (nn oraakliliides) ja volituste muutmiseks ning volituste haldamise kasutajaliidest [eesti.ee](http://eesti.ee/) portaalis.
+* Pääsuke pakub X-tee liideseid volituste küsimiseks (nn oraakliliides) ja volituste muutmiseks ning volituste haldamise kasutajaliidest [eesti.ee](http://eesti.ee/){:target="_blank"} portaalis.
 * Pääsuke tarbib Äriregistri ja Rahvastikuregistri X-tee teenuseid (vt allpool olevat joonist).
 
 
@@ -83,7 +83,7 @@ Lähiajal lisanduvad funktsionaalsused: volituste ajaloo vaatamine
 
 **Füüsilise isiku esindamine:** Kui tegemist on füüsilise isikule mõeldud volitustega siis saab volituse anda vaid füüsiline isik ise (nt füüsiline isik volitab teist füüsilist isikut).
 
-Liidestumisel tuleb otsustada, mis liidestumise viisi kasutada. Tehnilise kirjeldusega saab tutvuda [SIIN].(https://e-gov.github.io/PH-Doku/Integrating) 
+Liidestumisel tuleb otsustada, mis liidestumise viisi kasutada. Tehnilise kirjeldusega saab tutvuda [SIIN.](https://e-gov.github.io/PH-Doku/Integrating){:target="_blank"}
 
 Antud joonisel rohelisega on kirjeldatud liidestumist, kus volitusi hoitakse Pääsukeses ja lillaga on kujutatud liidestumist, kus volitusi hoiatakse partneri iseteeninduses (nimetatud ka kui kaugkinnitus).
 
