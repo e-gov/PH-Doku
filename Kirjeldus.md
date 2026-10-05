@@ -56,11 +56,11 @@ Volituste haldamise kasutajaliideses on võimalik:
 * volitusi taotleda
 * volitusi digiallkirjastada
 
-Detailse ülevaate kasutajaliidese võimalustest saab Pääsukese [DEMO videost](https://www.youtube.com/watch?v=Pq4PZ2dPo_0&list=PLNPWRftK1TNp9GZtHUw3jjIXOK3CMuUA2&index=4&t=81s.) ja [Volituste haldamise juhendist](https://www.eesti.ee/static/files/Volituste_juhend_EE.pdf)
+Detailse ülevaate kasutajaliidese võimalustest saab Pääsukese [DEMO videost](https://www.youtube.com/watch?v=Pq4PZ2dPo_0&list=PLNPWRftK1TNp9GZtHUw3jjIXOK3CMuUA2&index=4&t=81s.){:target="_blank"} ja [Volituste haldamise juhendist](https://www.eesti.ee/static/files/Volituste_juhend_EE.pdf){:target="_blank"}
 
 Lähiajal lisanduvad funktsionaalsused: volituste ajaloo vaatamine
 
-2. Liidestunud infosüsteemi omanikule on olemas ka **kasutajaliides rollide seadistamiseks,** so **Rollikonfiguraator**, mille kohta leiad info [SIIT.](https://e-gov.github.io/PH-Doku/files/rollide_konfigureerimine_v011.pdf)
+2. Liidestunud infosüsteemi omanikule on olemas ka **kasutajaliides rollide seadistamiseks,** so **Rollikonfiguraator**, mille kohta leiad info [SIIT.](https://e-gov.github.io/PH-Doku/files/rollide_konfigureerimine_v011.pdf){:target="_blank"}
 
 3. **RIA kasutajatoe teenus:** Iga liidestuja saab valida, kas volitusi saab juriidilise isiku eest kasutajaliideses anda ka RIA kasutajatugi. RIA kasutajatugi saab volitusi ettevõtte eest lisada esindusõiguslike isikute poolt allkirjastatud taotluse alusel. Kasutajatoe teenuse jaoks on vajalik esitada vabas vormis ärikirjeldus/juhis ja esitada see koos toodangu taotlusega.
    
