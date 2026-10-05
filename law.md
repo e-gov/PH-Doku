@@ -1,14 +1,14 @@
 ---
 permalink: oigusraamistik
 ---
-#Riigi Infosüsteemi Ameti (RIA) pädevusnorm
+# Riigi Infosüsteemi Ameti (RIA) pädevusnorm
 
 RIA-l on olemas pädevusnorm Pääsukese haldamiseks Teabevärava haldajana avaliku teabe seaduse § 4310 (volituste haldamise andmekogu) ja teabevärava määruse § 3 lg 1 alusel.
 Pääsukese õiguslik olemus
 
 Pääsuke on volituste ja seadusjärgse esindusõiguse haldamise ja kuvamise teenus, mitte õigusi loov või piirav süsteem.
 
-#Tutvu Pääsukese üldtingimustega.
+# Tutvu Pääsukese üldtingimustega.
 Riigi Infosüsteemi Ameti roll
 
 RIA roll volituste haldamisel piirdub Pääsukeses tehnilise vahendaja ja info edastaja rolliga ning ei hõlma volituste kehtivuse, sisu ega piiride sisulist kontrolli – see pole osa RIA avalik-õiguslikust ülesandest. Pääsukeses kuvatavad volitused on informatiivse, mitte konstitutiivse (st õigust loova) tähendusega, mistõttu ei saa ei volituse pooled ega liidestujad tugineda neile ilma iseseisva õigusliku hinnanguta.
