@@ -2,6 +2,8 @@
   url: "/"
 - title: "Mõisted"
   url: /sonastik
+- title: "Õigusraamistik"
+  url: /oigusraamistik
 - title: "Ärikirjeldus"
   url: "/Kirjeldus"
 - title: "Tehniline kirjeldus (integratsioonimustrid)"
